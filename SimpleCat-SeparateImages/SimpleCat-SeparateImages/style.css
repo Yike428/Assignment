@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 24px 12px;
+    background: #faf4e8;
+    color: #594536;
+    font-family: Arial, sans-serif;
+}
+main {
+    max-width: 380px;
+    margin: auto;
+    padding: 24px;
+    background: #fffdf7;
+    border: 1px solid #e6d9c6;
+    border-radius: 20px;
+}
+h1, h2 { text-align: center; }
+h1 { margin: 0; font-size: 26px; }
+h2 { margin: 16px 0 0; color: #668a9c; font-size: 22px; }
+label { display: block; margin-top: 20px; }
+input { width: 100%; margin: 12px 0; accent-color: #83a9ba; }
+input:focus-visible { outline: 2px solid #668a9c; outline-offset: 4px; }
+
+#cat {
+    display: block;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Little Cat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>My Little Cat</h1>
+        <h2 id="status" aria-live="polite">Normal</h2>
+        <img id="cat" src="assets/normal.png" alt="A relaxed Siamese cat">
+
+        <label for="fullness">Fullness: <span id="fullnessValue">50</span></label>
+        <input type="range" id="fullness" min="0" max="100" value="50" oninput="updateCat()">
+
+        <label for="mood">Mood: <span id="moodValue">50</span></label>
+        <input type="range" id="mood" min="0" max="100" value="50" oninput="updateCat()">
+
+        <label for="stamina">Stamina: <span id="staminaValue">50</span></label>
+        <input type="range" id="stamina" min="0" max="100" value="50" oninput="updateCat()">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
