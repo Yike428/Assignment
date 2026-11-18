@@ -52,4 +52,12 @@ if (messageElement) {
     document.getElementById('cat').alt = 'A ' + state.toLowerCase() + ' Siamese cat';
 }
 
+function resetCat() {
+    document.getElementById('fullness').value = 50;
+    document.getElementById('mood').value = 50;
+    document.getElementById('stamina').value = 50;
+
+    updateCat();
+}
+
 updateCat();
