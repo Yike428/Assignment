@@ -24,6 +24,30 @@ function updateCat(){
     }
 
     document.getElementById('status').textContent = state;
+    let message = '';
+
+     if (state === 'Tired') {
+    message = 'Your cat needs some rest!';
+    } else if (state === 'Hungry') {
+    message = 'Your cat needs food!';
+    } else if (state === 'Sad') {
+    message = 'Your cat needs some attention!';
+    } else if (state === 'Happy') {
+    message = 'Your cat is very happy!';
+    } else {
+    message = 'Your cat is doing fine!';
+    }
+    const messageElement = document.getElementById('catMessage');
+
+    if (messageElement) {
+    messageElement.textContent = message;
+    }
+
+
+
+if (messageElement) {
+    messageElement.textContent = message;
+}
     document.getElementById('cat').src = image;
     document.getElementById('cat').alt = 'A ' + state.toLowerCase() + ' Siamese cat';
 }
