@@ -39,9 +39,6 @@ function updateCat(){
     }
     const messageElement = document.getElementById('catMessage');
 
-    if (messageElement) {
-    messageElement.textContent = message;
-    }
 
 
 
