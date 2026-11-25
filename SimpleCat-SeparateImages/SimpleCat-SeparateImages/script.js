@@ -61,3 +61,11 @@ function resetCat() {
 }
 
 updateCat();
+// Change Background feature
+const backgroundColours = ['#faf4e8', '#eaf3fb', '#e8f5e9', '#fce4ec'];
+let backgroundIndex = 0;
+
+function changeBackground() {
+    backgroundIndex = (backgroundIndex + 1) % backgroundColours.length;
+    document.body.style.background = backgroundColours[backgroundIndex];
+}
