@@ -54,3 +54,12 @@ button:hover {
 button:active {
     transform: scale(0.98);
 }
+/* Change Background Button */
+#bgButton {
+    margin-top: 12px;
+    background-color: #668a9c;
+}
+
+#bgButton:hover {
+    background-color: #4f7182;
+}
