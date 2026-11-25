@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 24px 12px;
-    background: #faf4e8;
+    background: #ffe9d6;
     color: #594536;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 main {
     max-width: 380px;
@@ -24,4 +24,31 @@ input:focus-visible { outline: 2px solid #668a9c; outline-offset: 4px; }
     display: block;
     width: 100%;
     height: auto;
+}
+/* Buttons */
+button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 18px;
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #962d22;
+}
+
+#changeBg {
+    margin-top: 10px;
+    background-color: #8e44ad;
+}
+
+#changeBg:hover {
+    background-color: #71368a;
 }

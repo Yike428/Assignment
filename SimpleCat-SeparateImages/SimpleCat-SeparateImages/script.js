@@ -53,3 +53,11 @@ if (messageElement) {
 }
 
 updateCat();
+// Change Background feature
+const themeColours = ['#ffe9d6', '#d6e9ff', '#d6ffe0', '#f3d6ff'];
+let themeIndex = 0;
+
+function changeBg() {
+    themeIndex = (themeIndex + 1) % themeColours.length;
+    document.body.style.background = themeColours[themeIndex];
+}
